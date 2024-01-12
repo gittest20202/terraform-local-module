@@ -5,6 +5,7 @@ variable "rg_location" {
 variable "rg_name" {
    type = string
    description = "Region name"
+}
 variable  "subscription_id" {
    type = string
    description = "Subscription ID"
