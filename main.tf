@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "terr_azure_rg" {
-  name     = "terr_rg"
-  location = var.location
+  name     = var.rg_name
+  location = var.rg_location
 }
 resource "azurerm_virtual_network" "terr_azure_vn" {
   name                = "terr_network"
